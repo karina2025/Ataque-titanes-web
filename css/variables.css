@@ -5,4 +5,12 @@
     /* Barra de scroll */
     --color-3: #888;
     --color-4: #555;
+    --color-5:#454f3d;
+}
+
+@font-face{
+
+    font-family:"Poppins-semiBold" ;
+     src: url(../storage/font/static/Montserrat-SemiBold.ttf);
+     
 }

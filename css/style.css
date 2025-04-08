@@ -6,10 +6,8 @@
 }
 
 body{
-    background-image: url(../storage/img/____Shingeki\ no\ kyojin____.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: 50% 50%;
+
+    background-color: #454f3d;
     
 }
 
@@ -21,22 +19,28 @@ body{
   }
   
   .hero h1 {
-    margin-left: 500px;
+
+    background: red;
+    margin-right: auto;
     font-size: 2.6rem;
     margin-bottom: 20px;
     font-weight: bold;
     color: #fff;
+    text-align: center;
+
   }
   
   .hero p {
-    margin-left: 800px;
+    background: pink;
     max-width: 600px;
-    margin: 0 auto 30px;
+    margin: 0 auto 50px;
     color: #666;
     line-height: 1.6;
   }
   
   .explore-btn {
+
+    background: cadetblue;
     margin-left: 500px;
     background-color: #333;
     color: #fff;
@@ -46,13 +50,16 @@ body{
     cursor: pointer;
     font-size: 1rem;
     transition: background-color 0.3s;
+
   }
   
   .explore-btn:hover {
+    background: yellow;
     background-color: #555;
   }
   
   .image-grid {
+    background: blanchedalmond;
     margin-top: 50px;
     display: flex;
     justify-content: center;
