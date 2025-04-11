@@ -9,7 +9,7 @@ body {
    /* background-color: #454f3d;*/
     margin: 0;
     padding: 0;
-    background-image: url('../storage/img/the\ rumbling.jpg');
+    background-image: url('../storage/img/Attack\ on\ titan.jpg');
     background-size: cover;      /* Hace que se ajuste a toda la pantalla */
     background-position: center; /* Centrado */
     background-repeat: no-repeat;/* No se repite */
@@ -34,7 +34,7 @@ body {
     justify-content: center;
     margin-bottom: 20px;
     gap: 10px;
-    background: red;
+  /*  background: red;*/
     margin-top: 10px;
 }
 
@@ -85,8 +85,10 @@ body {
     flex-grow: 1;
     color: #fff;
     font-size: 30px;
-    background: blue;
+   /* background: blue;*/
     margin-top: 10px;
+    color:#ca1a1a;
+    font-family:'Poppins-BoldItalic' ;
 }
 
 .div__portada-header .icono {
@@ -97,7 +99,7 @@ body {
 
 .div__portada {
     position: relative; /* Para que los hijos absolutos se basen en este contenedor */
-    background:yellow;
+   /* background:yellow;*/
     width: 80%;
     height: 300px;
     margin: 50px auto;
@@ -139,28 +141,29 @@ body {
     text-align: center;
     padding: 50px 20px;
     color: white;
-    background: yellowgreen;
+  /*  background: yellowgreen;*/
     margin-top: -30px;
 }
 
 .article__jumping h1 {
     margin-top: -30px;
-    background: cadetblue;
-    font-family: "Teko-Bold";
-    font-size: 40px;
-    margin-bottom: 20px;
+  /*  background: cadetblue;*/
+    font-family:'Poppins-BoldItalic';
+    font-size: 50px;
+    margin-bottom: 10px;
     color: white; /* o el color que quieras */
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); /* sombra para mejor visibilidad */
+    color: #db4747;
 }
 
 .article__jumping p {
-    background: pink;
+   /* background: pink;*/
     max-width: 800px;
     font-size: 18px;
     line-height: 1.6;
     color: #eee; /* gris claro */
     text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
-    font-family: 'Teko-Bold';
+   font-family: 'Poppins-semiBold';
 }
 
 /****************************************************lista****************************/
@@ -185,7 +188,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: #834141;
+    background-color: #161010;
     border-radius: 10px;
     padding: 10px;
   }

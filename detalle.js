@@ -1,19 +1,10 @@
-const params = new URLSearchParams(window.location.search);
-const nombrePersonaje = params.get('nombre');
+const personaje = JSON.parse(localStorage.getItem('personaje'));
 
-const contenedor = document.getElementById('info-personaje');
+document.getElementById('detalle').innerHTML = `
+    <div class="card">
+        <h2>${personaje.name}</h2>
+        <img src="${personaje.image}" alt="${personaje.name}">
+        <p>${personaje.about}</p>
+    </div>
+`;
 
-fetch(`https://api.attackontitanapi.com/characters/${nombrePersonaje}`)
-  .then(response => response.json())
-  .then(data => {
-    contenedor.innerHTML = `
-      <h2>${data.name}</h2>
-      <img src="${data.image}" alt="${data.name}" width="200">
-      <p><strong>Género:</strong> ${data.gender}</p>
-      <p><strong>Afiliación:</strong> ${data.affiliation}</p>
-      <p><strong>Historia:</strong> ${data.story}</p>
-    `;
-  })
-  .catch(error => {
-    contenedor.innerHTML = `<p>Error al cargar los datos</p>`;
-  });

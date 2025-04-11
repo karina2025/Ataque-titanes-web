@@ -21,3 +21,10 @@
      src: url(../storage/font/static/Montserrat-Medium.ttf);
      
 }
+
+@font-face{
+
+    font-family:"Poppins-BoldItalic" ;
+     src: url(../storage/font/static/Montserrat-BoldItalic.ttf);
+     
+}
